@@ -158,12 +158,12 @@ func main() {
 // 				if k == ks {
 // 					break
 // 				}
-
+//
 // 			}
 // 		} else if len(p.Keys) > 0 {
 // 			p.Keys = append(p.Keys, k)
 // 		}
-
+//
 // 	case Copper:
 // 		if len(p.Keys) > 0 {
 // 			for _, ks := range p.Keys {
@@ -181,7 +181,7 @@ func main() {
 // 				if k == ks {
 // 					break
 // 				}
-
+//
 // 			}
 // 		} else {
 // 			p.Keys = append(p.Keys, k)
@@ -265,6 +265,5 @@ func moveAll(ms []mover, x, y int) {
 // 	if kind == "int" {
 // 		return 0
 // 	}
-
 // 	return 0.0
 // }
